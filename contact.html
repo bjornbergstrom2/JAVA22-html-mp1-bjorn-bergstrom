@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Kontakta mig!</title>
+    <link rel="icon" href="./images/favicon-32x32.png">
+</head>
+
+<body>
+
+    <h2 class="mailbox header">Kontakta mig</h2>
+    <form action="mailto:bjorn.bergstrom@gritacademy.se" method="post">
+
+        <label for="yourname" class="mailbox">Ditt namn:</label>
+        <input type="name" id="name" class="mailbox" name="Name">
+
+        <label for="loadupfile" class="mailbox">Ladda upp en fil:</label>
+        <input type="file" id="file" class="mailbox" name="File" size="50">
+
+        <label for="message" class="mailbox">Meddelande:</label>
+        <textarea id="text" class="mailbox" name="Message" rows="6" cols="49">Skriv ett meddelande...</textarea>
+
+        <button id="btnSend" type="btnSend">Skicka!</button>
+
+    </form>
+
+    <a class="centerText" href="./inspiration.html">Inspiration</a>
+    <a class="centerText" href="./index.html">Index</a>
+
+</body>
+
+</html>
